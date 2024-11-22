@@ -41,10 +41,10 @@ def display_right_content(labels):
     st.write("### 오른쪽: 동적 분류 결과")
     cols = st.columns(3)
 
-    # 1st Row - Images based on labels
+  # 1st Row - Images based on labels
     for i, label in enumerate(labels[:3]):
         with cols[i]:
-            st.image(f"https://via.placeholder.com/150?text={label}", caption=f"이미지: {label}", use_column_width=True)
+            st.image(f"https://i.ibb.co/JCdkBXL/oct.jpg?text={label}", caption=f"이미지: {label}", use_column_width=True)
 
     # 2nd Row - YouTube Videos based on labels
     for i, label in enumerate(labels[:3]):
